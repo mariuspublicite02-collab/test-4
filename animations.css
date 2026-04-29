@@ -1,0 +1,397 @@
+@keyframes fadeInHero {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+section:first-child h1,
+section:first-child h2,
+section:first-child p {
+    animation: fadeInHero 1.5s ease-out forwards;
+}
+
+section:first-child h1 {
+    animation-delay: 0.3s;
+    opacity: 0;
+}
+
+section:first-child h2 {
+    animation-delay: 0.5s;
+    opacity: 0;
+}
+
+section:first-child p {
+    animation-delay: 0.8s;
+    opacity: 0;
+}
+
+
+@keyframes heartBeat {
+    0%, 100% {
+        transform: scale(1);
+    }
+    10%, 30% {
+        transform: scale(1.2);
+    }
+    20%, 40% {
+        transform: scale(1.1);
+    }
+}
+
+.fa-heart {
+    animation: heartBeat 2s ease-in-out infinite;
+}
+
+
+@keyframes slideInLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.section2 h2 {
+    opacity: 0;
+}
+
+.section2.animate h2 {
+    animation: slideInLeft 0.9s ease-out forwards;
+}
+
+@keyframes floatLetters {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+.section2 span:first-child {
+    opacity: 0;
+}
+
+.section2.animate span:first-child {
+    animation: floatLetters 3s ease-in-out infinite;
+    opacity: 1;
+}
+
+.section2 span:last-child {
+    opacity: 0;
+}
+
+.section2.animate span:last-child {
+    animation: fadeInUp 0.7s ease-out 0.2s forwards;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.section2 p {
+    opacity: 0;
+}
+
+.section2.animate p {
+    animation: fadeInUp 0.9s ease-out 0.4s forwards;
+}
+
+@keyframes scaleIn {
+    from {
+        opacity: 0;
+        transform: scale(0.5);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.section3 h2,
+.section3 p {
+    opacity: 0;
+}
+
+.section3.animate h2 {
+    animation: slideDown 0.7s ease-out forwards;
+}
+
+.section3.animate p {
+    animation: scaleIn 0.8s ease-out 0.3s forwards;
+}
+
+@keyframes pulse {
+    0% {
+        box-shadow: 0 4px 15px rgba(107, 142, 159, 0.1);
+    }
+    50% {
+        box-shadow: 0 8px 30px rgba(107, 142, 159, 0.3);
+    }
+    100% {
+        box-shadow: 0 4px 15px rgba(107, 142, 159, 0.1);
+    }
+}
+
+.countdown-item {
+    opacity: 0;
+}
+
+.countdown-item.animate {
+    animation: fadeInUp 0.7s ease-out forwards;
+}
+
+.countdown-item.animate:nth-child(1) {
+    animation-delay: 0.15s;
+}
+
+.countdown-item.animate:nth-child(2) {
+    animation-delay: 0.25s;
+}
+
+.countdown-item.animate:nth-child(3) {
+    animation-delay: 0.35s;
+}
+
+.countdown-item.animate:nth-child(4) {
+    animation-delay: 0.45s;
+}
+
+@keyframes fadeInImage {
+    from {
+        opacity: 0;
+        filter: blur(10px);
+    }
+    to {
+        opacity: 1;
+        filter: blur(0);
+    }
+}
+
+.section4 h2 {
+    opacity: 0;
+}
+
+.section4.animate h2 {
+    animation: slideDown 0.7s ease-out forwards;
+}
+
+.section4 p {
+    opacity: 0;
+}
+
+.section4.animate p {
+    animation: fadeInUp 0.8s ease-out 0.3s forwards;
+}
+
+.section4 img {
+    opacity: 0;
+}
+
+.section4.animate img:first-of-type {
+    animation: fadeInImage 1s ease-out 0.4s forwards;
+}
+
+.section4.animate img:last-of-type {
+    animation: fadeInImage 1s ease-out 0.7s forwards;
+}
+
+.fa-infinity {
+    opacity: 0;
+}
+
+.section4.animate .fa-infinity {
+    animation: rotateIn 0.9s ease-out 0.8s forwards;
+}
+
+@keyframes rotateIn {
+    from {
+        opacity: 0;
+        transform: rotate(-180deg) scale(0.5);
+    }
+    to {
+        opacity: 1;
+        transform: rotate(0) scale(1);
+    }
+}
+
+.section5 {
+    background: linear-gradient(135deg, #f0f4f8 0%, #e8f2f0 50%, #f0f4f8 100%);
+    background-size: 200% 200%;
+}
+
+.section5.animate {
+    animation: gradientShift 10s ease infinite;
+}
+
+.section5 h2 {
+    opacity: 0;
+}
+
+.section5.animate h2 {
+    animation: slideDown 0.7s ease-out forwards;
+}
+
+.section5 > div {
+    opacity: 0;
+}
+
+.section5.animate > div {
+    animation: fadeInUp 0.8s ease-out forwards;
+}
+
+.section5.animate > div:nth-of-type(1) {
+    animation-delay: 0.3s;
+}
+
+.section5.animate > div:nth-of-type(2) {
+    animation-delay: 0.4s;
+}
+
+.section5.animate > div:nth-of-type(3) {
+    animation-delay: 0.5s;
+}
+
+.section5 > div i {
+    opacity: 1;
+}
+
+@keyframes bounceIn {
+    0% {
+        opacity: 0;
+        transform: scale(0.3);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+    70% {
+        transform: scale(0.9);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.section5 > div button {
+    opacity: 1;
+}
+
+@keyframes slideDown {
+    from {
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeInSlide {
+    from {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.section6 h3,
+.section6 p {
+    opacity: 0;
+}
+
+.section6.animate h3 {
+    animation: fadeInSlide 0.8s ease-out forwards;
+}
+
+.section6.animate p {
+    animation: fadeInSlide 0.8s ease-out 0.3s forwards;
+}
+
+.section7 h2,
+.section7 p {
+    opacity: 0;
+}
+
+.section7.animate h2 {
+    animation: slideDown 0.7s ease-out forwards;
+}
+
+.section7.animate p {
+    animation: fadeInUp 0.7s ease-out 0.3s forwards;
+}
+
+form {
+    opacity: 0;
+}
+
+form.animate {
+    animation: fadeInUp 0.8s ease-out forwards;
+}
+
+form input,
+form .checkbox-group,
+form > div:first-of-type {
+    opacity: 1;
+}
+
+@keyframes inputFocus {
+    from {
+        border-bottom-width: 2px;
+    }
+    to {
+        border-bottom-width: 3px;
+    }
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus {
+    animation: inputFocus 0.3s ease-out forwards;
+}
+
+@keyframes checkboxPulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+input[type="checkbox"]:checked {
+    animation: checkboxPulse 0.3s ease-out;
+}
+
+@keyframes gradientShift {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}

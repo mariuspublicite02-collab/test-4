@@ -1,0 +1,847 @@
+.mare{
+    display: none;
+}
+
+
+@media (min-width: 771px) {
+    section:first-child::after {
+        bottom: -30px;
+        height: 80px;
+    }
+}
+
+@media (max-width: 768px) {
+    section:first-child::after {
+        height: 80px;
+    }
+    
+    section:last-child {
+        padding: 40px 20px;
+    }
+    
+    form {
+        max-width: 100%;
+    }
+
+
+}
+
+@media (max-width: 425px) {
+    .section7 h2{
+        font-size: 25px;
+    }
+
+    .section4 p:first-of-type {
+        font-size: 12px;
+        font-family: "Cormorant Garamond";
+        text-align: justify;
+        margin-left: 210px;
+        margin-right: 16.57px;
+        margin-top: 41.26px;
+    }
+    
+    .section4 p:last-of-type {
+        font-size: 12px;
+        font-family: "Cormorant Garamond";
+        text-align: justify;
+        margin-top: -10px;
+        margin-left: 23.57px;
+        margin-right: 18.57px;
+    }
+    
+    .section4 img {
+        filter: blur(0) !important;
+    }
+    
+    .section4 img:first-of-type{
+        position: absolute;
+        width: 150px;
+        margin-left: -165px;
+        border-radius: 34px;
+        margin-top: -290px;
+    }
+    
+    .section4 img:last-of-type{
+        position: absolute;
+        width: 62px;
+        margin-left: -117px;
+        border-radius: 108px;
+        margin-top: -185px;
+    }
+}
+
+@media (max-width: 415px) {
+    .section4 p:first-of-type {
+        font-size: 12px;
+        font-family: "Cormorant Garamond";
+        text-align: justify;
+        margin-left: 190px;
+        margin-right: 16.57px;
+        margin-top: 41.26px;
+    }
+    
+    .section4 p:last-of-type {
+        font-size: 12px;
+        font-family: "Cormorant Garamond";
+        text-align: justify;
+        margin-top: -10px;
+        margin-left: 23.57px;
+        margin-right: 18.57px;
+    }
+    
+    .section4 img {
+        filter: blur(0) !important;
+    }
+    
+    .section4 img:first-of-type{
+        position: absolute;
+        width: 140px;
+        margin-left: -165px;
+        border-radius: 34px;
+        margin-top: -270px;
+    }
+    
+    .section4 img:last-of-type{
+        position: absolute;
+        width: 62px;
+        margin-left: -117px;
+        border-radius: 108px;
+        margin-top: -180px;
+    }
+}
+
+.mobile-show {
+    display: none;
+}
+  
+@media (max-width: 408px) {
+    .mobile-hide {
+        display: none;
+    }
+    
+    .mobile-show {
+        display: inline;
+    }
+}
+
+@media (max-width: 398px) {
+    .section4 p:first-of-type {
+        font-size: 12px;
+        font-family: "Cormorant Garamond";
+        text-align: justify;
+        margin-left: 185px;
+        margin-right: 16.57px;
+        margin-top: 41.26px;
+    }
+
+    .section4 img:first-of-type{
+        position: absolute;
+        width: 140px;
+        margin-left: -165px;
+        border-radius: 34px;
+        margin-top: -270px;
+    }
+    
+    .section4 img:last-of-type{
+        position: absolute;
+        width: 62px;
+        margin-left: -117px;
+        border-radius: 108px;
+        margin-top: -178px;
+    }
+}
+
+.mobile-hide-393,
+.mobile-hide-390,
+.mobile-hide-373,
+.mobile-hide-327 {
+    display: inline;
+}
+
+.mobile-show-393,
+.mobile-show-390,
+.mobile-show-373,
+.mobile-show-327 {
+    display: none;
+}
+
+@media (max-width: 393px) {
+    .mobile-hide-393 {
+        display: none;
+    }
+    .mobile-show-393 {
+        display: inline;
+    }
+
+    .section4 p:first-of-type {
+        font-size: 12px;
+        font-family: "Cormorant Garamond";
+        text-align: justify;
+        margin-left: 185px;
+        margin-right: 16.57px;
+        margin-top: 41.26px;
+    }
+    
+    .section4 p:last-of-type {
+        font-size: 12px;
+        font-family: "Cormorant Garamond";
+        text-align: justify;
+        margin-top: -10px;
+        margin-left: 23.57px;
+        margin-right: 18.57px;
+    }
+
+    .section4 img:first-of-type{
+        position: absolute;
+        width: 140px;
+        margin-left: -165px;
+        border-radius: 34px;
+        margin-top: -270px;
+    }
+    
+    .section4 img:last-of-type{
+        position: absolute;
+        width: 62px;
+        margin-left: -117px;
+        border-radius: 108px;
+        margin-top: -195px;
+    }
+}
+
+@media (max-width: 390px) {
+    .mobile-hide-390 {
+        display: none;
+    }
+    .mobile-show-390 {
+        display: inline;
+    }
+
+    .section4 p:first-of-type {
+        font-size: 12px;
+        font-family: "Cormorant Garamond";
+        text-align: justify;
+        margin-left: 185px;
+        margin-right: 16.57px;
+        margin-top: 41.26px;
+    }
+    
+    .section4 p:last-of-type {
+        font-size: 12px;
+        font-family: "Cormorant Garamond";
+        text-align: justify;
+        margin-top: -10px;
+        margin-left: 23.57px;
+        margin-right: 18.57px;
+    }
+
+    .section4 img:first-of-type{
+        position: absolute;
+        width: 140px;
+        margin-left: -155px;
+        border-radius: 34px;
+        margin-top: -274px;
+    }
+    
+    .section4 img:last-of-type{
+        position: absolute;
+        width: 62px;
+        margin-left: -107px;
+        border-radius: 108px;
+        margin-top: -197px;
+    }
+}
+
+@media (max-width: 373px) {
+    .mobile-hide-373 {
+        display: none;
+    }
+    .mobile-show-373 {
+        display: inline;
+    }
+
+    .section4 p:first-of-type {
+        font-size: 12px;
+        font-family: "Cormorant Garamond";
+        text-align: justify;
+        margin-left: 185px;
+        margin-right: 16.57px;
+        margin-top: 41.26px;
+    }
+    
+    .section4 p:last-of-type {
+        font-size: 12px;
+        font-family: "Cormorant Garamond";
+        text-align: justify;
+        margin-top: -10px;
+        margin-left: 23.57px;
+        margin-right: 18.57px;
+    }
+
+    .section4 img:first-of-type{
+        position: absolute;
+        width: 140px;
+        margin-left: -145px;
+        border-radius: 34px;
+        margin-top: -255px;
+    }
+    
+    .section4 img:last-of-type{
+        position: absolute;
+        width: 62px;
+        margin-left: -105px;
+        border-radius: 108px;
+        margin-top: -225px;
+    }
+
+    .section5 > div:first-of-type::after {
+        display: none;
+    }
+}
+
+@media (max-width: 341px) {
+    .section4 p:first-of-type {
+        font-size: 12px;
+        font-family: "Cormorant Garamond";
+        text-align: justify;
+        margin-left: 170px;
+        margin-right: 16.57px;
+        margin-top: 41.26px;
+    }
+    
+    .section4 p:last-of-type {
+        font-size: 12px;
+        font-family: "Cormorant Garamond";
+        text-align: justify;
+        margin-top: -10px;
+        margin-left: 23.57px;
+        margin-right: 18.57px;
+    }
+
+    .section4 img:first-of-type{
+        position: absolute;
+        width: 140px;
+        margin-left: -145px;
+        border-radius: 34px;
+        margin-top: -280px;
+    }
+    
+    .section4 img:last-of-type{
+        position: absolute;
+        width: 62px;
+        margin-left: -105px;
+        border-radius: 108px;
+        margin-top: -245px;
+    }
+
+    .section5 > div:first-of-type::after {
+        display: none;
+    }
+}
+
+@media (max-width: 336px) {
+    .section4 img:last-of-type{
+        position: absolute;
+        width: 62px;
+        margin-left: -105px;
+        border-radius: 108px;
+        margin-top: -260px;
+    }
+
+    .section5 > div:first-of-type::after {
+        display: none;
+    }
+
+    .section4 p:first-of-type {
+        font-size: 12px;
+        font-family: "Cormorant Garamond";
+        text-align: justify;
+        margin-left: 170px;
+        margin-right: 16.57px;
+        margin-top: 41.26px;
+    }
+    
+    .section4 p:last-of-type {
+        font-size: 12px;
+        font-family: "Cormorant Garamond";
+        text-align: justify;
+        margin-top: -10px;
+        margin-left: 23.57px;
+        margin-right: 18.57px;
+    }
+}
+
+@media (max-width: 327px) {
+    .mobile-hide-327 {
+        display: none;
+    }
+    .mobile-show-327 {
+        display: inline;
+    }
+
+    .section4 p:first-of-type {
+        font-size: 12px;
+        font-family: "Cormorant Garamond";
+        text-align: justify;
+        margin-left: 170px;
+        margin-right: 16.57px;
+        margin-top: 41.26px;
+    }
+    
+    .section4 p:last-of-type {
+        font-size: 12px;
+        font-family: "Cormorant Garamond";
+        text-align: justify;
+        margin-top: -10px;
+        margin-left: 23.57px;
+        margin-right: 18.57px;
+    }
+
+    .section4 img:first-of-type{
+        position: absolute;
+        width: 140px;
+        margin-left: -135px;
+        border-radius: 34px;
+        margin-top: -245px;
+    }
+    
+    .section4 img:last-of-type{
+        position: absolute;
+        width: 62px;
+        margin-left: -90px;
+        border-radius: 108px;
+        margin-top: -300px;
+    }
+}
+
+
+@media (min-width: 375px) and (max-width: 425px) {
+    .tot {
+        max-width: 100%;
+        min-width: 100%;
+    }
+
+    section:first-child h1 {
+        margin-top: 220px;
+        font-size: 24px;
+        margin-bottom: 6px;
+    }
+
+    section:first-child h2 {
+        font-size: 52px;
+        margin-bottom: -8px;
+    }
+
+    section:first-child p {
+        font-size: 32px;
+    }
+
+    .section2 div {
+        margin-left: 150px;
+        margin-top: 35px;
+    }
+
+    .section2 h2 {
+        font-size: 95px;
+        margin-left: -35px;
+        margin-top: 55px;
+    }
+
+    .section2 span:first-child {
+        font-size: 155px;
+        margin-left: -125px;
+        margin-top: -3px;
+    }
+
+    .section2 span:last-child {
+        font-size: 35px;
+        margin-left: -50px;
+    }
+
+    .section2 p {
+        padding-top: 40px;
+        margin: 35px 35px 12px 35px;
+    }
+
+    .section3 h2 {
+        margin-top: -28px;
+    }
+
+    .section3 p {
+        margin-top: 8px;
+    }
+
+    .countdown-section {
+        margin-top: -28px;
+    }
+
+    .countdown-container {
+        gap: 6px;
+    }
+
+    .countdown-item {
+        padding: 10px 10px;
+    }
+
+    .countdown-number {
+        margin-bottom: 6px;
+    }
+
+
+    /* SECTION 5 */
+    .section5 {
+        padding: 20px 8px;
+    }
+
+    .section5 h2 {
+        margin: 20px 0 35px 0;
+    }
+
+    .section5 > div {
+        width: 45%;
+        margin: 0 2%;
+        padding: 15px 5px;
+    }
+
+    .section5 > div:first-of-type::after {
+        right: -15px;
+    }
+
+    .section5 > div > p:nth-of-type(2) {
+        font-size: 26px;
+    }
+
+    .section5 > div:nth-child(2){
+        margin-top: 0;
+    }
+
+
+    .section5 > div:nth-child(3) {
+        width: 45%;
+    }
+
+    .section5 > div i {
+        font-size: 35px;
+        margin: 8px 0;
+    }
+
+
+    .section5 > div > p:nth-of-type(3) {
+        font-size: 16px;
+        margin: 8px 3px 14px 3px;
+    }
+
+    .section5 > div button {
+        padding: 4px 8px;
+        margin: 4px 1px 18px 1px;
+    }
+
+    .section5 > div button i {
+        font-size: 8px;
+        margin-right: 3px;
+    }
+
+    /* SECTION 6 */
+    .section6 {
+        padding: 28px 10px;
+    }
+
+    .section6 h3 {
+        margin: 0 45px 14px 45px;
+    }
+
+    .section6 p {
+        margin: 14px 20px 0 20px;
+    }
+
+    /* SECTION 7 */
+    .section7 {
+        padding: 4px 40px 28px 40px;
+    }
+
+    .section7 h2 {
+        margin-bottom: 14px;
+    }
+
+    .section7 p {
+        margin: 0 40px 14px 40px;
+    }
+
+    /* FORM */
+    form {
+        width: 95%;
+        padding: 16px 24px;
+        border-radius: 12px;
+        gap: 6px;
+    }
+
+    input[type="text"],
+    input[type="number"] {
+        padding: 6px 0 5px 0;
+        font-size: 14px;
+    }
+
+    input[type="text"]::placeholder,
+    input[type="number"]::placeholder {
+        font-size: 14px;
+    }
+
+    form > div:first-of-type button {
+        padding: 5px 10px;
+        margin: 12px 5px;
+        font-size: 14px;
+    }
+
+    .checkbox-group {
+        margin: 12px 0;
+        gap: 7px;
+    }
+
+    .checkbox-group > label {
+        font-size: 16px;
+        margin-bottom: 6px;
+    }
+
+    input[type="checkbox"] {
+        width: 11px;
+        height: 11px;
+        margin-right: 5px;
+    }
+
+    .checkbox-item label {
+        font-size: 16px;
+    }
+
+    input[type="submit"] {
+        padding: 6px 10px;
+        font-size: 16px;
+        margin: 10px 0 6px 0;
+    }
+
+    /* POPUP MODERATOR */
+    .popup-content {
+        padding: 18px 22px;
+        border-radius: 10px;
+        min-width: 200px;
+        max-width: 280px;
+    }
+
+    .popup-close {
+        top: 6px;
+        right: 12px;
+        font-size: 22px;
+    }
+
+    .popup-content h3 {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    .moderator-name {
+        font-size: 16px;
+        margin: 10px 0;
+    }
+
+    .moderator-phone {
+        font-size: 14px;
+        margin-top: 10px;
+    }
+
+    .moderator-phone i {
+        margin-right: 5px;
+        font-size: 11px;
+    }
+
+    /* MESSAGE POPUP */
+    .message-popup-content {
+        padding: 18px 22px;
+        border-radius: 10px;
+        min-width: 200px;
+        max-width: 280px;
+    }
+
+    .message-popup-icon {
+        font-size: 28px;
+        margin-bottom: 10px;
+    }
+
+    .message-popup-text {
+        font-size: 13px;
+        margin: 18px 22px 10px 22px;
+    }
+
+    .message-popup-button {
+        padding: 5px 10px;
+        font-size: 13px;
+        border-radius: 5px;
+    }
+}
+
+/* Ajustări fine */
+
+@media (max-width: 420px) {
+    .section2 p {
+        margin: 32px 30px 10px 30px;
+    }
+
+    .section3 h2 {
+        margin-top: -30px;
+    }
+
+
+    .countdown-section {
+        margin-top: -30px;
+    }
+
+
+
+    .section6 h3 {
+        margin: 0 40px 12px 40px;
+    }
+
+    .section6 p {
+        font-size: 15px;
+    }
+
+    .section7 p {
+        margin: 0 40px 12px 40px;
+    }
+}
+
+@media (max-width: 400px) {
+
+    .section7 h2 {
+        font-size: 23px;
+    }
+
+    .section7 p {
+        /* font-size: 15px; */
+    }
+}
+
+@media (max-width: 400px) {
+    .section2 div {
+        margin-left: 140px;
+        margin-top: 32px;
+    }
+
+
+
+    .section2 p {
+        margin: 30px 25px 10px 25px;
+    }
+
+    .section3 h2 {
+        margin-top: -32px;
+    }
+
+    .countdown-section {
+        margin-top: -32px;
+    }
+
+    .countdown-item {
+        padding: 9px 9px;
+    }
+
+    .countdown-number {
+        margin-bottom: 5px;
+    }
+
+     .section5 > div > p:first-of-type {
+        font-size: 25px;
+    }
+
+    .section5 > div > p:nth-of-type(2) {
+        font-size: 24px;
+    }
+
+    .section5 > div button {
+        padding: 3px 7px;
+    }
+
+    .section6 h3 {
+        margin: 0 35px 12px 35px;
+    }
+
+
+
+    .section7 p {
+        margin: 0 30px 12px 30px;
+    }
+}
+
+@media (max-width: 385px) {
+    .section2 p {
+        font-size: 15px;
+
+        margin: 28px 22px 8px 22px;
+    }
+
+    .section6 h3 {
+        margin: 0 30px 10px 30px;
+    }
+}
+
+@media (max-width: 380px) {
+
+
+    section:first-child h1 {
+        margin-top: 210px;
+        font-size: 22px;
+    }
+
+    section:first-child h2 {
+        font-size: 48px;
+    }
+
+    .section3 h2 {
+        margin-top: -34px;
+    }
+
+
+    .countdown-section {
+        margin-top: -34px;
+    }
+
+    .countdown-item {
+        padding: 8px 8px;
+    }
+
+    .section5 h2 {
+        font-size: 26px;
+    }
+
+    .section5 > div > p:nth-of-type(3) {
+        font-size: 15px;
+    }
+
+    .section6 h3 {
+        margin: 0 28px 10px 28px;
+    }
+
+    .section6 p {
+        margin: 0 38px 10px 38px;
+    }
+}
+
+@media (max-width: 376px) {
+
+    .section7 h2 {
+        /* font-size: 22px; */
+    }
+
+    .section7 p {
+        font-size: 16px;
+    }
+
+    
+}
+
+@media (max-width: 375px) {
+    .section2 p {
+        margin: 26px 20px 8px 20px;
+    }
+
+    .section6 h3 {
+        margin: 0 25px 10px 25px;
+    }
+}
